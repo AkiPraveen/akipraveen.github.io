@@ -1,2 +1,1 @@
-# akipraveen.github.io
-personal website
+Repository for my personal website, hosted with githubpages.
