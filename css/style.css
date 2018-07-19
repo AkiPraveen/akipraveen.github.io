@@ -78,7 +78,6 @@ section a {
 }
 
 section a:hover {
-	color:blue;
 	text-decoration:none;
 }
 
