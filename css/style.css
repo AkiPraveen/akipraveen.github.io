@@ -1,234 +1,226 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Source+Sans+Pro:300,300i');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Source+Sans+Pro:300,300i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
 h1.title {
-	font-family: 'Source Sans Pro';
-	font-size:68px;
-	font-weight:600;
+  font-family: "Source Sans Pro";
+  font-size: 65px;
+  font-weight: 600;
 }
 
 h3.big {
-	font-family: 'Source Sans Pro';
-	font-weight: 300;
-
+  font-family: "Source Sans Pro";
+  font-weight: 300;
 }
 
 p {
-	color:#a3a3a3;
+  color: #a3a3a3;
 }
 
-.flavor{
-	font-size:16px;
-	color:#a3a3a3;
+.flavor {
+  font-size: 16px;
+  color: #a3a3a3;
 }
 
 img.hero {
-	width:100%;
+  width: 100%;
 }
 
 .divider {
-	height:1px;
-	background-color: #ededed;
-	width: 100%;
+  height: 1px;
+  background-color: #ededed;
+  width: 100%;
 }
 
 h2.header {
-	font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
 }
 
 .work {
-	padding-left:0px;
+  padding-left: 0px;
 }
 
 div.experience {
-	width:100%;
-	margin-bottom:35px;
+  width: 100%;
+  margin-bottom: 35px;
 }
 
 span.worktitle {
-	font-weight:bold;
+  font-weight: bold;
 }
 
-.section-desc{
-	color:white;
+.section-desc {
+  color: white;
 }
-
 
 .umd {
-	font-weight:400;
+  font-weight: 400;
 }
 
 /* SKETCH LINKS */
 section {
-	position: relative;
-	z-index: 1; /* needed for setting pseudo-element z-index */
-	overflow: hidden;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+  position: relative;
+  z-index: 1; /* needed for setting pseudo-element z-index */
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 section a {
-	color:gray;
-	position: relative;
-	display: inline-block;
-	outline: none;
-	vertical-align: bottom;
-	text-decoration: none;
-	white-space: nowrap;
+  color: gray;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  vertical-align: bottom;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 section a:hover {
-	text-decoration:none;
+  text-decoration: none;
 }
 
 section a:visited {
-	color:gray;
-	text-decoration: none;
+  color: gray;
+  text-decoration: none;
 }
 
 section a::before,
 section a::after {
-	pointer-events: none;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 
 .link-slideup {
-
 }
 
 .link-slideup a {
-
-	overflow: hidden;
-	font-weight: 300;
+  overflow: hidden;
+  font-weight: 300;
 }
 
 .link-slideup a::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.2);
-	content: '';
-	-webkit-transition: -webkit-transform 0.2s;
-	transition: transform 0.2s;
-	-webkit-transform: translateY(95%);
-	transform: translateY(95%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  content: "";
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  -webkit-transform: translateY(95%);
+  transform: translateY(95%);
 }
 
 .link-slideup a:hover::before,
 .link-slideup a:focus::before {
-	-webkit-transform: translateY(0);
-	transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
 }
 
 /* END LINKS */
 
 .link-slideup-github a {
-	overflow: hidden;
-	font-weight: 300;
-	color:black;
+  overflow: hidden;
+  font-weight: 300;
+  color: black;
 }
 
 .link-slideup-github a::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
-	background-color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
 
-	content: '';
-	-webkit-transition: -webkit-transform 0.2s;
-	transition: transform 0.2s;
-	-webkit-transform: translateY(95%);
-	transform: translateY(95%);
+  content: "";
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  -webkit-transform: translateY(95%);
+  transform: translateY(95%);
 }
 
-.link-slideup-github a:visited{
-	color:black;
+.link-slideup-github a:visited {
+  color: black;
 }
 
 .link-slideup-github a:visited:hover {
-	color:white;
+  color: white;
 }
 
 .link-slideup-github a:hover {
-	color:white;
+  color: white;
 }
 
 .link-slideup-github a:hover::before,
 .link-slideup-github a:focus::before {
-	-webkit-transform: translateY(0);
-	transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
 }
 
- /* END GITHUB STYLE */
+/* END GITHUB STYLE */
 
- /* LINKEDIN STYLE */
- .link-slideup-linkedin a {
-	overflow: hidden;
-	font-weight: 300;
-	color:black;
+/* LINKEDIN STYLE */
+.link-slideup-linkedin a {
+  overflow: hidden;
+  font-weight: 300;
+  color: black;
 }
 
 .link-slideup-linkedin a::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
-	background-color: #0984e3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #0984e3;
 
-	content: '';
-	-webkit-transition: -webkit-transform 0.2s;
-	transition: transform 0.2s;
-	-webkit-transform: translateY(95%);
-	transform: translateY(95%);
+  content: "";
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  -webkit-transform: translateY(95%);
+  transform: translateY(95%);
 }
 
 .link-slideup-linkedin a:visited:hover {
-	color:white;
+  color: white;
 }
 
 .link-slideup-linkedin a:hover {
-	color:white;
+  color: white;
 }
 
-.link-slideup-linkedin a:visited{
-	color:black;
+.link-slideup-linkedin a:visited {
+  color: black;
 }
 
 .link-slideup-linkedin a:hover::before,
 .link-slideup-linkedin a:focus::before {
-	-webkit-transform: translateY(0);
-	transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
 }
 /* END LINKEDIN STYLE*/
 
-
-
-
 .skills {
-	width:100%;
-	height:auto;
-	background-color:#dfe6e9;
-	color:#636e72;
-	padding:30px;
+  width: 100%;
+  height: auto;
+  background-color: #dfe6e9;
+  color: #636e72;
+  padding: 30px;
 }
 
 p.skill {
-	color:#636e72;
+  color: #636e72;
 }
 
-
 .email {
-	text-align: center;
-	font-size:36px;
+  text-align: center;
+  font-size: 36px;
 }
