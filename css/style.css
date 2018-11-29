@@ -56,9 +56,38 @@ span.worktitle {
 .umd {
   font-weight: 400;
 }
+a {
+  color: #727272;
+}
+a:hover {
+  color: #727272;
+}
 
-#bitcamp {
-  cursor: pointer;
+.bitcamp {
+  text-decoration: none;
+  color: #ff7040;
+}
+.bitcamp:hover {
+  text-decoration: none;
+  color: #ff7040;
+}
+
+.hpe {
+  text-decoration: none;
+  color: #00b388;
+}
+.hpe:hover {
+  text-decoration: none;
+  color: #00b388;
+}
+
+.shell {
+  color: #d54135;
+  text-decoration: none;
+}
+.shell:hover {
+  color: #d54135;
+  text-decoration: none;
 }
 
 /* SKETCH LINKS */
