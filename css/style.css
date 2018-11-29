@@ -37,6 +37,7 @@ h2.header {
 
 .work {
   padding-left: 0px;
+  cursor: pointer; /* for JQuery links in script.js */
 }
 
 div.experience {
@@ -54,6 +55,10 @@ span.worktitle {
 
 .umd {
   font-weight: 400;
+}
+
+#bitcamp {
+  cursor: pointer;
 }
 
 /* SKETCH LINKS */
