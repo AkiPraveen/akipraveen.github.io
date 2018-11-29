@@ -63,6 +63,7 @@ $("#hackathons").on("click", function() {
 });
 
 $("#tinovation").on("click", function() {
+  alert("test");
   window.location.href = "projects/tinovation.html";
 });
 
