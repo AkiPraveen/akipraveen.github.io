@@ -150,7 +150,8 @@ a:hover {
 .gitchart {
   width: 96%;
   margin-left: 2%;
-  margin-top: 12px;
+  margin-top: 18px;
+  margin-bottom: 12px;
 }
 
 .git {
@@ -161,6 +162,12 @@ a:hover {
 
 .gitname {
   text-align: center;
+  margin-bottom: 16px;
+}
+
+blockquote {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
 }
 
 /* SKETCH LINKS */
@@ -318,7 +325,8 @@ section a::after {
 .skills {
   width: 100%;
   height: auto;
-  background-color: #dfe6e9;
+  background-color: #f7f7f7;
+  border-radius: 10px;
   color: #636e72;
   padding: 30px;
 }
