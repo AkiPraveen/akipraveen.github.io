@@ -1,28 +1,44 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Source+Sans+Pro:300,300i");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
+
 h1.title {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   font-size: 65px;
   font-weight: 600;
 }
 
 h3.big {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   font-weight: 300;
 }
 
 p {
   color: #a3a3a3;
+  font-family: "Source Sans Pro";
+}
+
+img.work {
+  border-radius: 10px;
 }
 
 .flavor {
-  font-size: 16px;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
   color: #a3a3a3;
 }
 
 img.hero {
-  width: 100%;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.umdlogo {
+  height: 28px;
+  margin-bottom: 2px;
 }
 
 .divider {
@@ -32,7 +48,7 @@ img.hero {
 }
 
 h2.header {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
 }
 
 .work {
@@ -63,15 +79,6 @@ a:hover {
   color: #727272;
 }
 
-.bitcamp {
-  text-decoration: none;
-  color: #ff7040;
-}
-.bitcamp:hover {
-  text-decoration: none;
-  color: #ff7040;
-}
-
 .hpe {
   text-decoration: none;
   color: #00b388;
@@ -81,6 +88,56 @@ a:hover {
   color: #00b388;
 }
 
+.cmsc389 {
+  text-decoration: none;
+  color: #2ed573;
+}
+
+.cmsc389:hover {
+  text-decoration: none;
+  color: #2ed573;
+}
+
+.cmsc216 {
+  text-decoration: none;
+  color: #5352ed;
+}
+
+.cmsc216:hover {
+  text-decoration: none;
+  color: #5352ed;
+}
+
+.enee200 {
+  text-decoration: none;
+  color: #ff6b81;
+}
+
+.enee200:hover {
+  text-decoration: none;
+  color: #ff6b81;
+}
+
+.engl101 {
+  text-decoration: none;
+  color: #ff6348;
+}
+
+.engl101:hover {
+  text-decoration: none;
+  color: #ff6348;
+}
+
+.aces {
+  text-decoration: none;
+  color: black;
+}
+
+.aces:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .shell {
   color: #d54135;
   text-decoration: none;
@@ -88,6 +145,22 @@ a:hover {
 .shell:hover {
   color: #d54135;
   text-decoration: none;
+}
+
+.gitchart {
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 12px;
+}
+
+.git {
+  border: 1px dotted #dcdde1;
+  border-radius: 10px;
+  height: auto;
+}
+
+.gitname {
+  text-align: center;
 }
 
 /* SKETCH LINKS */
