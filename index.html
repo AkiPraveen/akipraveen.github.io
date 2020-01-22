@@ -186,37 +186,39 @@
 
         </div>
 
-        <div class="col-md-6 col-sm-12" style="">
+        <div class="col-md-6 col-sm-12 animated" style="cursor: pointer;">
 
-            <div class="git">
-                <!-- GITHUB CALENDAR-->
+            <a class="gitlink" href="https://github.com/AkiPraveen">
+                <div class="git">
+                    <!-- GITHUB CALENDAR-->
 
 
-                <img class="gitchart" src="http://ghchart.rshah.org/eb2f06/akipraveen" alt="2016rshah's Github chart" />
-                <br><br>
-                <p class="gitname">@akipraveen's contributions on <img style="margin-top:-4px;"
-                        src="https://img.icons8.com/material-sharp/24/000000/github.png">
-                </p>
+                    <img class="gitchart" src="http://ghchart.rshah.org/eb2f06/akipraveen" alt="2016rshah's Github chart" />
+                    <br><br>
+                    <p class="gitname">@akipraveen's contributions on <img style="margin-top:-4px;"
+                            src="https://img.icons8.com/material-sharp/24/000000/github.png">
+                    </p>
 
-                <!-- Include the library. -->
-                <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-                </script>
+                    <!-- Include the library. -->
+                    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+                    </script>
 
-                <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-                <link rel="stylesheet" href="css/gitcal.css" />
+                    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+                    <link rel="stylesheet" href="css/gitcal.css" />
 
-                <!-- Prepare a container for your calendar. -->
-                <div class="calendar">
-                    <!-- Loading stuff -->
-                    Thinking harder than Aki did in CMSC351...
+                    <!-- Prepare a container for your calendar. -->
+                    <div class="calendar">
+                        <!-- Loading stuff -->
+                        Thinking harder than Aki did in CMSC351...
+                    </div>
+
+                    <script>
+                        GitHubCalendar(".calendar", "akipraveen");
+                        // or enable responsive functionality:
+                        GitHubCalendar(".calendar", "akipraveen", { responsive: true });
+                    </script>
                 </div>
-
-                <script>
-                    GitHubCalendar(".calendar", "akipraveen");
-                    // or enable responsive functionality:
-                    GitHubCalendar(".calendar", "akipraveen", { responsive: true });
-                </script>
-            </div>
+            </a>
 
         </div>
 
@@ -228,7 +230,7 @@
         <br />
         <div class="divider"></div> <br />
 
-        <h2 class="header" style="display:inline"> My Stack </h2>
+        <h2 class="header" style="display:inline"> My Skills </h2>
         <section class="link-slideup" style="display:inline;">
             <p class="section-desc" style="display:inline;margin-left:20px;margin-top:-15px;"><a href="index.html"></i>
                     (view more) </a> </p>
@@ -239,7 +241,7 @@
         <div class="skills">
             <div class="row">
                 <div class="col-md-4">
-                    <p class="skill"><strong>LANGUAGES - CORE</strong></p>
+                    <p class="skill"><strong>CORE</strong></p>
                     <p class="skill">
                         <blockquote>
                             <strong>Python</strong><br />
@@ -249,24 +251,26 @@
                             <strong>Java</strong><br />
                             data structures &amp; algorithms <br>
                         </blockquote>
-
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <p class="skill"><strong>LANGUAGES - WEB/MISC</strong></p>
-                    <p class="skill">
                         <blockquote>
                             <strong>C, Assembly</strong><br />
                             data structures &amp; algorithms, Arduino AVR <br>
                         </blockquote>
+
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p class="skill"><strong>FULLSTACK</strong></p>
+                    <p class="skill">
+                       
                         <blockquote>
                             <strong>HTML5 + CSS + JavaScript</strong><br />
                             firebase, jquery, bootstrap <br>
                         </blockquote>
                         <blockquote>
-                            <strong>MATLAB</strong><br />
-                            multivariate calculus, linear algebra <br>
+                            <strong>Flutter</strong><br />
+                            basic app development <br>
                         </blockquote>
+                        
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -279,6 +283,14 @@
                         <blockquote>
                             <strong>Version Control</strong><br />
                             Git, Mercurial, SVN <br>
+                        </blockquote>
+                        <blockquote>
+                            <strong>Workflow</strong><br />
+                            Confluence, JIRA, Slack, Trello, Campuswire <br>
+                        </blockquote>
+                        <blockquote>
+                            <strong>MATLAB</strong><br />
+                            multivariate calculus, linear algebra <br>
                         </blockquote>
                     </p>
                 </div>
@@ -294,7 +306,7 @@
 
 
 
-    <p style="text-align:center"> Want to reach out? Shoot me an email! </p>
+    <p class="animated" style="text-align:center"> Want to reach out? Shoot me an email! </p>
     <h3 class="email flavor animated"> &#9993; apraveen@cs.umd.edu </h3>
 
     <br /><br />

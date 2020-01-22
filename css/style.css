@@ -155,9 +155,17 @@ a:hover {
 }
 
 .git {
-  border: 1px dotted #dcdde1;
+  border: 0px dotted #dcdde1;
   border-radius: 10px;
   height: auto;
+}
+
+.gitlink {
+  text-decoration: none;
+}
+
+.gitlink:hover {
+  text-decoration: none;
 }
 
 .gitname {
