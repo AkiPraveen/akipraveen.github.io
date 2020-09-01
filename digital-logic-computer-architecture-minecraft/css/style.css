@@ -191,7 +191,7 @@ button.rel {
 }
 
 @media (min-width: 768px) {
-    .container-small {
+    .container-large {
         width: 300px;
     }
     .container-large {
@@ -203,7 +203,7 @@ button.rel {
     }
 } 
 @media (min-width: 992px) {
-    .container-small {
+    .container-large {
         width: 660px;
     }
     .container-large {
@@ -214,7 +214,7 @@ button.rel {
     }
 }
 @media (min-width: 1200px) {
-    .container-small {
+    .container-large {
         width: 840px;
     }
     .container-large {
@@ -225,6 +225,6 @@ button.rel {
     }
 }
 
-.container-small, .container-large {
+.container-large, .container-large {
     max-width: 100%;
 }
