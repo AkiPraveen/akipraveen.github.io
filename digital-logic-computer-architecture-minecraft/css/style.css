@@ -8,7 +8,9 @@
 }
 
 body {
-    padding-right:12px
+    padding-right:12px;
+    padding:15%;
+    padding-top:2%;
 }
 
 p {
