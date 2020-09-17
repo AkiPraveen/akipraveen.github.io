@@ -41,7 +41,7 @@
 
       <p>That way, if the binary input is 0, we send a signal down the 'zero' wire. If the input comes out to 1, we send a signal down the 'one' wire. If the input is 2, we send a signal down the 'two' wire, and so on.</p>
 
-      <p>If we're going to handle <em>three digits</em> of binary input, this would mean that we need 7 output wires, each representing a decimal value from 0 through 7.</p>
+      <p>If we're going to handle <em>three digits</em> of binary input, this would mean that we need 8 output wires, each representing a decimal value from 0 through 8.</p>
 
       <p>Going along the lines of digital logic, let's suppose that we're getting out input binary number via wires as well. Good thing we already figured that out in the previous two sections- in this case, our 3-bit (3-digit) binary number can be represented with three wires.</p>
 
@@ -67,7 +67,7 @@
 
       <h3>Generalization</h3>
 
-      <p>Of course, we are not just limited to 3 binary digits. With a binary to decimal decoder, we are effectively taking <em>n</em> inputs and redirecting it into <em>2<sup>n</sup>-1</em> outputs. </p>
+      <p>Of course, we are not just limited to 3 binary digits. With a binary to decimal decoder, we are effectively taking <em>n</em> inputs and redirecting it into <em>2<sup>n</sup></em> outputs. </p>
 
       <p>At this point, you may consider the idea that we can generalize this idea to number systems that are not just binary and decimal.</p>
 
