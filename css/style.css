@@ -79,6 +79,16 @@ a:hover {
   color: #727272;
 }
 
+.c1 {
+  text-decoration: none;
+  color: #004879;
+}
+
+.c1:hover {
+  text-decoration: none;
+  color: #004879;
+}
+
 .hpe {
   text-decoration: none;
   color: #00b388;
