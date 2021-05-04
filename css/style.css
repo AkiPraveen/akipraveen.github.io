@@ -4,16 +4,23 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap');
+
+body {
+  background-image: radial-gradient(grey 5%,transparent 1%);
+  background-position: 0 0, 50px 50px; 
+  background-size: 10px 10px;
+}
 
 h1.title {
-  font-family: "Open Sans";
+  font-family: "Inconsolata";
   font-size: 65px;
   font-weight: 600;
 }
 
 h3.big {
-  font-family: "Open Sans";
-  font-weight: 300;
+  font-family: "Inconsolata";
+  
 }
 
 p {
@@ -21,19 +28,20 @@ p {
   font-family: "Source Sans Pro";
 }
 
-img.work {
-  border-radius: 10px;
+div.flavor {
+  background-color:#FF686B;
+  padding:16px;
 }
 
-.flavor {
-  font-family: "Source Sans Pro";
-  font-size: 14px;
-  color: #a3a3a3;
+
+p.flavor {
+  font-family: "Inconsolata";
+  font-size: 16px;
+  color: white;
 }
 
 img.hero {
   width: 80%;
-  border-radius: 10px;
 }
 
 .umdlogo {
@@ -48,7 +56,8 @@ img.hero {
 }
 
 h2.header {
-  font-family: "Open Sans";
+  font-family: "Inconsolata";
+  font-weight:bold;
 }
 
 .work {
@@ -66,6 +75,7 @@ span.worktitle {
 }
 
 .section-desc {
+  font-family: Inconsolata;
   color: white;
 }
 
@@ -77,6 +87,29 @@ a {
 }
 a:hover {
   color: #727272;
+}
+
+/* companies */
+
+.flink {
+  color:white;
+  text-decoration: underline;
+}
+.flink:hover {
+  color:white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+.athelas {
+  color:white;
+  text-decoration: underline;
+}
+
+.athelas:hover {
+  text-decoration: none;
+  color: red;
 }
 
 .c1 {
@@ -99,13 +132,15 @@ a:hover {
 }
 
 .cmsc389 {
-  text-decoration: none;
-  color: #2ed573;
+  text-decoration: underline;
+  color:white;
+  /* color: #2ed573; */
 }
 
 .cmsc389:hover {
-  text-decoration: none;
-  color: #2ed573;
+  
+  color:white;
+  /* color: #2ed573; */
 }
 
 .cmsc216 {
@@ -230,7 +265,7 @@ section a::after {
 
 .link-slideup a {
   overflow: hidden;
-  font-weight: 300;
+  font-weight: bold;
 }
 
 .link-slideup a::before {
@@ -255,90 +290,6 @@ section a::after {
 }
 
 /* END LINKS */
-
-.link-slideup-github a {
-  overflow: hidden;
-  font-weight: 300;
-  color: black;
-}
-
-.link-slideup-github a::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background-color: #333;
-
-  content: "";
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-  -webkit-transform: translateY(95%);
-  transform: translateY(95%);
-}
-
-.link-slideup-github a:visited {
-  color: black;
-}
-
-.link-slideup-github a:visited:hover {
-  color: white;
-}
-
-.link-slideup-github a:hover {
-  color: white;
-}
-
-.link-slideup-github a:hover::before,
-.link-slideup-github a:focus::before {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-}
-
-/* END GITHUB STYLE */
-
-/* LINKEDIN STYLE */
-.link-slideup-linkedin a {
-  overflow: hidden;
-  font-weight: 300;
-  color: black;
-}
-
-.link-slideup-linkedin a::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background-color: #0984e3;
-
-  content: "";
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-  -webkit-transform: translateY(95%);
-  transform: translateY(95%);
-}
-
-.link-slideup-linkedin a:visited:hover {
-  color: white;
-}
-
-.link-slideup-linkedin a:hover {
-  color: white;
-}
-
-.link-slideup-linkedin a:visited {
-  color: black;
-}
-
-.link-slideup-linkedin a:hover::before,
-.link-slideup-linkedin a:focus::before {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-}
-/* END LINKEDIN STYLE*/
 
 .skills {
   width: 100%;
