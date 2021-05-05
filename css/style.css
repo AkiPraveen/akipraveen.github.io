@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap');
 
 body {
   background-image: radial-gradient(grey 5%,transparent 1%);
@@ -24,7 +25,6 @@ h3.big {
 }
 
 p {
-  color: #a3a3a3;
   font-family: "Inconsolata";
 }
 
@@ -67,11 +67,15 @@ h2.header {
 
 div.experience {
   width: 100%;
-  margin-bottom: 35px;
+  margin-bottom: 12px;
+  padding:10px;
+  color:white;
 }
 
 span.worktitle {
   font-weight: bold;
+  font-family: Inconsolata;
+  font-size:12px;
 }
 
 .section-desc {
@@ -307,4 +311,20 @@ p.skill {
 .email {
   text-align: center;
   font-size: 36px;
+}
+
+#mc {
+  background-color: rgb(81,106,49);
+}
+
+#hpe {
+  background-color: #00b388;
+}
+
+#athelas {
+  background-color: #f96284;
+}
+
+#umd-bg {
+  background-color: #990000;
 }
