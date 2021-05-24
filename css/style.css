@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap');
 
 body {
-  background-image: radial-gradient(grey 5%,transparent 1%);
+  background-image: radial-gradient(grey 7%,transparent 1%);
   background-position: 0 0, 50px 50px; 
   background-size: 10px 10px;
 }
@@ -29,14 +29,15 @@ p {
 }
 
 div.flavor {
-  background-color:#FF686B;
-  padding:16px;
+  background-color: #ff8700;
+  /* background-color:#FF686B; */
+  padding:12px;
 }
 
 
 p.flavor {
   font-family: "Inconsolata";
-  font-size: 16px;
+  font-size: 15px;
   color: white;
 }
 
@@ -205,8 +206,9 @@ a:hover {
 
 .git {
   border: 0px dotted #dcdde1;
-  border-radius: 10px;
+  padding:2px;
   height: auto;
+  background-color:rgb(238,238,238);
 }
 
 .gitlink {
@@ -293,6 +295,14 @@ section a::after {
   transform: translateY(0);
 }
 
+a.worklink {
+  text-decoration: none;
+}
+
+a.worklink:hover {
+  text-decoration: none;
+}
+
 /* END LINKS */
 
 .skills {
@@ -304,8 +314,14 @@ section a::after {
   padding: 30px;
 }
 
+blockquote {
+  font-family: 'Inconsolata';
+}
+
+
 p.skill {
   color: #636e72;
+  font-family:'Fira Code';
 }
 
 .email {
