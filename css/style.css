@@ -30,7 +30,8 @@ p {
 }
 
 div.flavor {
-  background-color: #ff8700;
+  background-color: rgb(238,109,45);
+  /* background-color: #ff8700; */
   /* background-color:#FF686B; */
   padding:12px;
 }
