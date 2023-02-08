@@ -10,6 +10,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /*
 body {
   background-color:rgb(241, 241, 241);
@@ -19,14 +21,11 @@ body {
 }
 */
 body {
-    background-color:black;
-    color:white;
-    font-family: "Fira Code";
+  font-family: 'DM Sans';
 }
 
 div.titlecard {
-  background-color: #030406;
-  padding:20px;
+  padding:50px;
   border-radius: 5px;
 }
 
@@ -34,12 +33,10 @@ h1.title {
   font-size: 65px;
   font-weight: 600;
   font-style: italic;
-  color: #d2beac;
 }
 
 h3.big {
   font-style: italic;
-  color: #d2beac;
 }
 
 p {
@@ -49,15 +46,24 @@ div.flavor {
   /* background-color: rgb(238,109,45); */
   /* background-color: #ff8700; */
   /* background-color:#FF686B; */
-  margin-top: 30px;
-  padding:12px;
-  color: #d2beac
+  margin-top: 60px;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+div.toplinks {
+  margin-top: 60px;
+  padding-left:50px;
+  padding-right:50px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
 }
 
 p.flavor {
-  font-family: "Ubuntu Mono";
+  font-family: "DM Sans";
   font-size: 20px;
-  color: white;
 }
 
 img.hero {
@@ -108,7 +114,6 @@ span.worktitle {
 
 .section-desc {
   font-size: 22px;
-  font-family: "Ubuntu Mono";
   color: white;
 }
 
@@ -342,17 +347,8 @@ a.worklink:hover {
   padding: 30px;
 }
 
-blockquote {
-  font-family: 'Inconsolata';
-}
-
-.toplinks {
-  font-family:;
-}
-
 p.skill {
   color: #636e72;
-  font-family:'Fira Code';
 }
 
 .email {
