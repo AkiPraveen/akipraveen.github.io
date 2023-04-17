@@ -1,373 +1,61 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Source+Sans+Pro:300,300i");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300;400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-/*
-body {
-  background-color:rgb(241, 241, 241);
-  background-image: radial-gradient(grey 7%,transparent 1%);
-  background-position: 0 0, 50px 50px; 
-  background-size: 10px 10px;
-}
-*/
-body {
-  font-family: 'DM Sans';
+/* header */
+img.profile {
+    width: 256px;
+    height: 256px;
+    margin-bottom: 16px;
 }
 
-div.titlecard {
-  padding:50px;
-  border-radius: 5px;
+h2.h {
+    font-family: 'Fira Code';
+    font-weight: 400;
 }
 
-h1.title {
-  font-size: 65px;
-  font-weight: 600;
-  font-style: italic;
+/* links */
+button.outlink {
+    font-family: 'Fira Code';
+    font-weight: 300;
 }
 
-h3.big {
-  font-style: italic;
+a.outlink {
+    text-decoration: none;
+}
+a.outlink:hover {
+    text-decoration: none;
 }
 
-p {
+button.outlink {
+    font-weight: 400;
+    border-radius: 0;
 }
 
-div.flavor {
-  /* background-color: rgb(238,109,45); */
-  /* background-color: #ff8700; */
-  /* background-color:#FF686B; */
-  margin-top: 60px;
-  padding-left:50px;
-  padding-right:50px;
+a.inlink {
+    text-decoration: none;
+    color: #999;
+    font-family: "Fira Code";
 }
 
-div.toplinks {
-  margin-top: 60px;
-  padding-left:50px;
-  padding-right:50px;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: flex-start;
+.tm-link {
+    padding-left: 8px;
 }
 
-p.flavor {
-  font-family: "DM Sans";
-  font-size: 20px;
+/* typography */
+p.codey {
+    font-family: 'Fira Code';
+    font-weight: 300;
 }
 
-img.hero {
-  width: 80%;
+a.prev {
+    text-underline-offset: 8px;
 }
 
-.umdlogo {
-  height: 28px;
-  margin-bottom: 2px;
+div.block {
+    margin-bottom: 12px;
 }
 
-.athelaslogo {
-  height:32px;
-}
-  
-.icon {
-  margin-right:10px;
-}
-
-.divider {
-  height: 1px;
-  background-color: #ededed;
-  width: 100%;
-}
-
-h2.header {
-  font-family: "Inconsolata";
-  font-weight:bold;
-}
-
-.work {
-  padding-left: 0px;
-  cursor: pointer; /* for JQuery links in script.js */
-}
-
-div.experience {
-  width: 100%;
-  margin-bottom: 12px;
-  padding:10px;
-  color:white;
-}
-
-span.worktitle {
-  font-weight: bold;
-  font-family: Inconsolata;
-  font-size:12px;
-}
-
-.section-desc {
-  font-size: 22px;
-  color: white;
-}
-
-.umd {
-  font-weight: 400;
-}
-a {
-  color: #727272;
-}
-a:hover {
-  color: #727272;
-}
-
-/* companies */
-
-.flink {
-  color:white;
-  text-decoration: underline;
-}
-.flink:hover {
-  color:white;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-
-.athelas {
-  color:white;
-  text-decoration: underline;
-}
-
-.athelas:hover {
-  text-decoration: none;
-  color: red;
-}
-
-.c1 {
-  text-decoration: none;
-  color: #004879;
-}
-
-.c1:hover {
-  text-decoration: none;
-  color: #004879;
-}
-
-.hpe {
-  text-decoration: none;
-  color: #00b388;
-}
-.hpe:hover {
-  text-decoration: none;
-  color: #00b388;
-}
-
-.cmsc389 {
-  text-decoration: underline;
-  color:white;
-  /* color: #2ed573; */
-}
-
-.cmsc389:hover {
-  
-  color:white;
-  /* color: #2ed573; */
-}
-
-.cmsc216 {
-  text-decoration: none;
-  color: #5352ed;
-}
-
-.cmsc216:hover {
-  text-decoration: none;
-  color: #5352ed;
-}
-
-.enee200 {
-  text-decoration: none;
-  color: #ff6b81;
-}
-
-.enee200:hover {
-  text-decoration: none;
-  color: #ff6b81;
-}
-
-.engl101 {
-  text-decoration: none;
-  color: #ff6348;
-}
-
-.engl101:hover {
-  text-decoration: none;
-  color: #ff6348;
-}
-
-.aces {
-  text-decoration: none;
-  color: black;
-}
-
-.aces:hover {
-  text-decoration: none;
-  color: black;
-}
-
-.shell {
-  color: #d54135;
-  text-decoration: none;
-}
-.shell:hover {
-  color: #d54135;
-  text-decoration: none;
-}
-
-.gitchart {
-  width: 96%;
-  margin-left: 2%;
-  margin-top: 18px;
-  margin-bottom: 12px;
-}
-
-.git {
-  border: 0px dotted #dcdde1;
-  padding:2px;
-  height: auto;
-  width:100%;
-}
-
-.gitlink {
-  text-decoration: none;
-}
-
-.gitlink:hover {
-  text-decoration: none;
-}
-
-.gitname {
-  text-align: center;
-  margin-bottom: 16px;
-}
-
-blockquote {
-  font-family: "Source Sans Pro";
-  font-size: 14px;
-}
-
-/* SKETCH LINKS */
-section {
-  position: relative;
-  z-index: 1; /* needed for setting pseudo-element z-index */
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-section a {
-  color: gray;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  vertical-align: bottom;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-section a:hover {
-  text-decoration: none;
-}
-
-section a:visited {
-  color: gray;
-  text-decoration: none;
-}
-
-section a::before,
-section a::after {
-  pointer-events: none;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-}
-
-.link-slideup {
-}
-
-.link-slideup a {
-  overflow: hidden;
-  font-weight: bold;
-}
-
-.link-slideup a::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  content: "";
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-  -webkit-transform: translateY(95%);
-  transform: translateY(95%);
-}
-
-.link-slideup a:hover::before,
-.link-slideup a:focus::before {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-}
-
-a.worklink {
-  text-decoration: none;
-}
-
-a.worklink:hover {
-  text-decoration: none;
-}
-
-/* END LINKS */
-
-.skills {
-  width: 100%;
-  height: auto;
-  background-color: #f7f7f7;
-  border-radius: 10px;
-  color: #636e72;
-  padding: 30px;
-}
-
-p.skill {
-  color: #636e72;
-}
-
-.email {
-  text-align: center;
-  font-size: 36px;
-}
-
-#mc {
-  background-color: rgb(81,106,49);
-}
-
-#hpe {
-  background-color: #00b388;
-}
-
-#athelas {
-  color: #f96284;
-}
-
-#umd-bg {
-  background-color: #990000;
+hr.sep {
+    margin-top: 42px;
+    margin-bottom: 42px;
 }
