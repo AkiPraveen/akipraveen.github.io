@@ -59,3 +59,12 @@ hr.sep {
     margin-top: 42px;
     margin-bottom: 42px;
 }
+
+/* misc */
+::selection {
+    background-color: yellow;
+}
+
+::-moz-selection {
+    background-color: yellow;
+}
